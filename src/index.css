@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+/* ===============================
+   BLACK–PURPLE GALAXY THEME
+   =============================== */
+
+:root {
+  --bg-primary: #020004;   /* almost black */
+  --bg-secondary: #07000c; /* deep purple-black */
+  --bg-surface: rgba(255, 255, 255, 0.03);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --text-primary: #f1f1f3;
+  --text-secondary: #b7b7c2;
+  --accent: #7c7cff; /* soft cosmic indigo */
+}
+
+html,
+body {
+  background:
+    radial-gradient(
+      1200px circle at 20% 10%,
+      #160020 0%,
+      transparent 45%
+    ),
+    radial-gradient(
+      800px circle at 80% 30%,
+      #0b0016 0%,
+      transparent 50%
+    ),
+    linear-gradient(
+      180deg,
+      var(--bg-secondary) 0%,
+      var(--bg-primary) 100%
+    );
+  color: var(--text-primary);
+}
+
+/* Smooth scrolling for navbar */
+html {
+  scroll-behavior: smooth;
+}
+
+/* SECTION DEFAULT SPACING */
+section {
+  scroll-margin-top: 96px;
+}
+
+/* SURFACE / CARD STYLE */
+.surface {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  backdrop-filter: blur(12px);
+}
+
+/* SUBTLE GLOW (used sparingly) */
+.glow {
+  box-shadow: 0 0 0 transparent;
+}
+.glow:hover {
+  box-shadow: 0 0 40px rgba(124, 124, 255, 0.15);
+}
