@@ -44,7 +44,7 @@ export default function Navbar() {
 
           {/* RESUME BUTTON */}
           <a
-            href="https://drive.google.com/file/d/1Lnari1aoAOr6D4bIvONMGMI2pV5_8SEf/view?usp=sharing"
+            href="https://drive.google.com/file/d/1LRM8heQ9JHnxE0JX-U3SAqukV4Echqbd/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="
@@ -60,7 +60,7 @@ export default function Navbar() {
         <div className="md:hidden flex items-center gap-4">
           {/* RESUME */}
           <a
-            href="https://drive.google.com/file/d/1Lnari1aoAOr6D4bIvONMGMI2pV5_8SEf/view?usp=sharing"
+            href="https://drive.google.com/file/d/1LRM8heQ9JHnxE0JX-U3SAqukV4Echqbd/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="
